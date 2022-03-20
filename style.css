@@ -1,0 +1,28 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-position: center center;
+    color: #fff;
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
+#currClock{font-size: 50px; margin-bottom: 10px;}
+
+#weatherCon{margin-bottom: 30px;}
+#weatherCon span:last-child{margin-left: 10px;}
+
+#userLoginCon input[name="user_name"]{font-size: 15px; line-height: 22px; padding: 6px 10px; outline: none;}
+#userLoginCon input[type="submit"]{background-color: #000; color: #fff; font-size: 15px; line-height: 22px; padding: 6px 15px; border: none;}
+
+#todoInputCon{margin-bottom: 40px;}
+#todoInputCon input{font-size: 15px; line-height: 22px; padding: 6px 10px; outline: none;}
+#todoInputCon button{background-color: #000; color: #fff; font-size: 15px; line-height: 22px; padding: 6px 15px; border: none;}
+
+#todoItemsCon .todoItem{display: flex; justify-content: center; align-items: center; margin-bottom: 6px;}
+#todoItemsCon .todoItem:last-child{margin-bottom: 0;}
+#todoItemsCon .todoItem input[type="checkbox"]{width: 15px; height: 15px; margin-right: 10px;}
+#todoItemsCon .todoItem input[type="checkbox"]:checked ~ .item_name{color: rgba(190, 190, 190); text-decoration: line-through;}
+#todoItemsCon .todoItem button{width: 20px; height: 20px; border: none; background-color: transparent; background-image: url('./img/close.png'); background-size: 20px 20px; background-position: center center; background-repeat: no-repeat; margin-left: 10px;}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h2 id="currClock">00:00:00</h2>
+    <div id="weatherCon">
+      <span></span>
+      <span></span>
+    </div> 
+    <form id="userLoginCon" class="hidden">
+      <input type="text" name="user_name">
+      <input type="submit" value="Log In">
+    </form>
+    <div id="userInfoCon">
+      <h1></h1>
+    </div>
+    <div id="todoListCon" class="hidden">
+      <h3><span class="userName"></span>'s to-do lists</h3>
+      <div id="todoInputCon">
+        <input type="text" name="new_item">
+        <button>Add</button>
+      </div>
+      <div id="todoItemsCon">
+      </div>
+    </div>
+    <script src="./js/background.js"></script>
+    <script src="./js/clock.js"></script>
+    <script src="./js/weather.js"></script>
+    <script src="./js/login.js"></script>
+    <script src="./js/todo.js"></script>
+  </body>
+</html>
